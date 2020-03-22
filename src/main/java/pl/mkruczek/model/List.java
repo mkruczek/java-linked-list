@@ -11,7 +11,12 @@ public class List<T> {
         this.size = 0;
     }
 
-
+    public List<T> add(T... t){
+        for (T v : t) {
+            this.add(v);
+        }
+        return this;
+    }
 
     public List<T> add(T v) {
         Node n = new Node(v);

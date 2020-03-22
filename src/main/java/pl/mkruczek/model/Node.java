@@ -1,10 +1,10 @@
 package main.java.pl.mkruczek.model;
 
-public class Node<T> {
+class Node<T> {
     T data;
     Node next;
 
-    public Node(T data) {
+    Node(T data) {
         this.data = data;
         this.next = null;
     }

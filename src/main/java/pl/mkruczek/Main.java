@@ -8,9 +8,7 @@ public class Main {
 
         List<Integer> list = new List<>();
 
-        list.add(15);
-        list.add(30);
-        list.add(45);
+        list.add(15,30,45);
         System.out.println(list.size());
         System.out.println(list.toString());
 
